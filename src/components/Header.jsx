@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link, useNavigate } from "react-router-dom";
-import bread_cutting from '../assets/short_bread.wav'
+// import bread_cutting from '../assets/short_bread.wav'
+import bread_cutting_short from '../assets/short_bread_shorter.wav'
 
 
 export default function Header() {
-    const bread = new Audio(bread_cutting)
+    const bread = new Audio(bread_cutting_short)
 
     return (
         <div className="navbar bg-base-100">
